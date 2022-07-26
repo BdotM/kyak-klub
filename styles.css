@@ -267,7 +267,7 @@ nav ul li {
   }
 
   
-    @media only screen and (max-width: 640px){
+    @media only screen and (max-width: 640px and (orientation: portrait){
     
         .casual-kyakers, .extreme-kyakers { 
             width: 100%;
