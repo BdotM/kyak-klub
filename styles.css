@@ -316,4 +316,8 @@ nav ul li {
   display: flex;
 }
 
+.nav-bar {
+  width: 80%;
+}
+
 }
