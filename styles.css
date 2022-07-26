@@ -280,8 +280,6 @@ nav ul li {
     }
     .casual-kyakers, .extreme-kyakers { 
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     footer {
@@ -299,8 +297,14 @@ nav ul li {
 
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (min-width: 380px) and (max-width: 600px) and (orientation: portrait){
 
 .casual-kyakers, .extreme-kyakers {
     width: 100%;
-}}
+}
+
+.header {
+  font-size: small;
+}
+
+}
