@@ -307,6 +307,10 @@ nav ul li {
   display: flex;
 }
 
+.logo {
+  display: none;
+}
+
 .header {
   font-size: small;
   display: flex;
