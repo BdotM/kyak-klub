@@ -260,6 +260,10 @@ nav ul li {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .logo {
+      display: none;
+    }
   }
 
   
@@ -270,23 +274,13 @@ nav ul li {
             margin-left: auto;
             margin-right: auto;
         }
+
+        .logo {
+          display: none;
+        }
     
 }
     
-  
-  @media only screen and (max-width: 470px){
-    h1 {
-      font-size: 2rem;
-    }
-    .casual-kyakers, .extreme-kyakers { 
-        width: 100%;
-    }
-
-    footer {
-      display: none;
-    }
-}
-
 @media only screen and (min-width: 600px) and (max-width: 1400px){
     
     .casual-kyakers, .extreme-kyakers { 
@@ -307,17 +301,12 @@ nav ul li {
   display: flex;
 }
 
+#navigation a {
+  font-size: 14px;
+}
+
 .logo {
   display: none;
-}
-
-.header {
-  font-size: small;
-  display: flex;
-}
-
-.nav-bar {
-  width: 80%;
 }
 
 }
