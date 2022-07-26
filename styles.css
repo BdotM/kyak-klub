@@ -293,6 +293,10 @@ nav ul li {
 
 @media only screen (max-width: 480px) and (orientation: portrait){
 
+  body {
+    width: 100%;
+  }
+
 .casual-kyakers, .extreme-kyakers {
     width: 100%;
 }
