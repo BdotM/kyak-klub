@@ -303,8 +303,13 @@ nav ul li {
     width: 100%;
 }
 
+.header a li {
+  display: flex;
+}
+
 .header {
   font-size: small;
+  display: flex;
 }
 
 }
