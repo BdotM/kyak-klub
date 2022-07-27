@@ -297,7 +297,7 @@ nav ul li {
 
 }
 
-@media only screen (max-width: 480px) and (orientation: portrait){
+@media only screen (max-width: 780px) and (orientation: portrait){
 
   body {
     width: 100%;
