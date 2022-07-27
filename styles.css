@@ -302,10 +302,13 @@ nav ul li {
   body {
     max-width: 1000px;
     width: 100%;
+    padding: auto;
+    margin: auto;
   }
 
 .casual-kyakers, .extreme-kyakers {
     width: 100%;
+    height: auto;
 }
 
 .header a li {
